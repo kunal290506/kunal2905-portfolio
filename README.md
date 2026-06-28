@@ -1,18 +1,110 @@
-# React + Vite
+# Kunal2905 Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built using **React** and **Vite**. This project showcases my technical skills, featured projects, and contact information through a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Website:**
+https://myportfolio2905.netlify.app/
 
-## React Compiler
+## 📖 Project Overview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+This portfolio website serves as my personal online portfolio where visitors can learn about me, explore my projects, view my technical skills, and get in touch through the contact section.
 
-Note: This will impact Vite dev & build performances.
+## ✨ Features
 
-## Expanding the ESLint configuration
+* Responsive design for desktop, tablet, and mobile devices
+* Modern and clean user interface
+* Interactive navigation bar
+* Hero/Home section
+* About Me section
+* Skills showcase
+* Projects gallery
+* Contact section
+* Footer with social links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* React.js
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+## 📁 Project Structure
+
+```
+src
+│
+├── components
+│   ├── Navbar
+│   ├── Home
+│   ├── About
+│   ├── Skills
+│   ├── Projects
+│   ├── Contact
+│   └── Footer
+│
+├── data
+│
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+```
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kunal290506/kunal2905-portfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd kunal2905-portfolio
+```
+
+Install the required dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build the project for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## 🚀 Deployment
+
+The project is deployed using **Netlify**.
+
+Live URL:
+
+https://myportfolio2905.netlify.app/
+
+## 👨‍💻 Author
+
+**Kunal Desai**
+
+GitHub: https://github.com/kunal290506
+
+## 📄 License
+
+This project is created for educational purposes and as part of my Front-End Development Internship.
