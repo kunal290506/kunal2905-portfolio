@@ -1,0 +1,144 @@
+/* Home.css */
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 58px;
+  background: linear-gradient(
+    160deg,
+    #0f172a 0%,
+    #111827 100%
+  );
+}
+
+.home-inner {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 48px 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.home-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: rgba(29, 111, 164, 0.1);
+  border: 1px solid var(--border);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 14px 5px 9px;
+  border-radius: 100px;
+  margin-bottom: 28px;
+}
+
+.home-badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: pulse 2.2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.home-name {
+  font-size: clamp(42px, 7vw, 68px);
+  font-weight: 700;
+  letter-spacing: -2.5px;
+  line-height: 1;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.home-name span {
+  display: block;
+  color: var(--accent);
+}
+
+.home-role {
+  font-size: 18px;
+  color: var(--muted);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.home-bio {
+  max-width: 600px;
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.8;
+  text-align: center;
+  margin: 0 auto 36px;
+}
+
+.home-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.home-contacts {
+  width: 100%;
+  max-width: 1000px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+
+.home-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  color: var(--hint);
+}
+
+.home-contact-item a {
+  color: var(--hint);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.home-contact-item a:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .home-name {
+    letter-spacing: -1.5px;
+  }
+
+  .home-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .home-contacts {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
